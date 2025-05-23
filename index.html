@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="logo" href="./assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">    
+<title>Spotify - Web Player: Music for everyone</title>
+
+</head>
+<body>
+
+    <div class="main">
+        <div class="sidebar"> 
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+<div class="lib-option nav-option">
+    <img src="library_icon.png">
+    <a href="#">Your Library</a>
+</div>
+<div class="icons">
+    <i class="fa-solid fa-plus"></i>
+    <i class="fa-solid fa-arrow-right"></i>
+
+</div>
+</div>
+<div class="box-lib">
+    <div class="box">
+<p class="box1">Create your first playlist</p>
+<p class="box2">It's easy,we'll help you</p>
+<button class="badge">Create playlist</button>
+</div>
+<div class="box">
+    <p class="box1">Let's find some podcasts to follow</p>
+    <p class="box2">We'll keep you updated on new episodes</p>
+    <button class="badge">Browse podcasts</button>
+    </div>
+</div>
+
+
+
+
+
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+<div class="sticky-nav-icons">
+    <img src="backward_icon.png">
+<img src ="forward_icon.png" class="hide">
+</div>
+<div class="sticky-nav-options">
+<button class="badge hide">Explore Premium</button>
+<button class="badge dark-badge"> <i class="fa-regular fa-circle-down"></i>Install App </button>
+<i class="fa-regular fa-user"></i>
+</div>
+</div>
+
+<h2>Recently Played</h2>
+<div class="card-container"> 
+<div class="card">
+<img src="card1img.jpeg" class="card-img">
+<p class="card-title">Top 50 - Global</p>
+<p class="card-info">Your daily updates of the most played tracks...</p>
+</div>
+</div>
+<h2>Trending near you</h2>
+<div class="card-container"> 
+<div class="card">
+<img src="gloryy.jpg" class="card-img">
+<p class="card-title">Glory</p>
+<p class="card-info">Yo Yo Honey Singh</p>
+</div>
+<div class="card">
+    <img src="anuvjain.jpg" class="card-img">
+    <p class="card-title">Jo Tum Mere Ho</p>
+    <p class="card-info">Anuv Jain</p>
+    </div>
+    <div class="card">
+        <img src="aujlaa.jpg" class="card-img">
+        <p class="card-title">Making Memories</p>
+        <p class="card-info">Karan Aujla</p>
+        </div>
+        <div class="card">
+            <img src="jabwemet.jpg" class="card-img">
+            <p class="card-title">Jab We Met</p>
+            <p class="card-info">Pritam,Irshad Kamil,Sandesh Shandilya</p>
+            </div>
+            <div class="card">
+                <img src="animal.jpg" class="card-img">
+                <p class="card-title">ANIMAL</p>
+                <p class="card-info">Manan Bhardwaj,Vishal Mishra,Jaani</p>
+                </div>
+                <div class="card">
+                    <img src="ashiqui.jpg" class="card-img">
+                    <p class="card-title">Aashiqui 2</p>
+                    <p class="card-info">Mithoon,Ankit Tiwari,Jeet Gannguli</p>
+                    </div>
+                </div>
+                <h2>Featured Charts</h2>
+<div class="card-container"> 
+<div class="card">
+<img src="card5img.jpeg" class="card-img">
+<p class="card-title">Top 50 - Global</p>
+<p class="card-info">Your daily updates of the most played tracks...</p>
+</div>
+<div class="card">
+    <img src="card6img.jpeg" class="card-img">
+    <p class="card-title">Top Songs - India</p>
+    <p class="card-info">Your daily updates of the most played tracks...</p>
+    </div>
+    <div class="card">
+        <img src="card1img.jpeg" class="card-img">
+        <p class="card-title">Top 50 - Global</p>
+        <p class="card-info">Your daily updates of the most played tracks...</p>
+        </div>
+</div>
+
+<div class="footer">
+<div class="line">
+</div>
+</div>
+
+        </div>
+
+
+        <div class="music-player">
+            <div class="album">
+                
+<img src="mastmagan.jpg">
+
+<div class="artists">
+<p class="album-name">Mast Magan</p>
+<p class="singers">Arijit Singh,Chinmayi</p>
+</div>
+
+
+            </div>
+            <div class="player">
+
+                <div class="player-controls">
+                    <img  src="player_icon1.png" class="playercontrol-icon">
+                    <img src="player_icon2.png" class="playercontrol-icon">
+                    <img src="player_icon3.png" class="playercontrol-icon" id="play">
+                    <img src="player_icon4.png" class="playercontrol-icon">
+                    <img src="player_icon5.png" class="playercontrol-icon">
+
+                </div>
+<div class="playback-bar">
+    <span class="curr-time">00:00</span>
+    <input type="range" min="0" max="100" class="progress-bar" step="1">
+    <span class="total-time">3:33</span>
+
+</div>
+    </div>
+
+            <div class="controls">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m380-300 280-180-280-180v360ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>   
+<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#FFFFFF"><path d="M80-80v-720q0-33 23.5-56.5T160-880h440q33 0 56.5 23.5T680-800v17q-24 11-44 27t-36 36v-80H160v527l47-47h393v-160q16 20 36 36t44 27v97q0 33-23.5 56.5T600-240H240L80-80Zm160-320h160v-80H240v80Zm520-80q-50 0-85-35t-35-85q0-50 35-85t85-35q11 0 21 2t19 5v-207h160v80h-80v240q0 50-35 85t-85 35Zm-520-40h280v-80H240v80Zm0-120h280v-80H240v80Zm-80 320v-480 480Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#FFFFFF"><path d="M624-240q-50 0-85-35t-35-85q0-50 35-85t85-35q12 0 24.5 2.5T672-470v-298h192v72H744v336q0 50-35 85t-85 35ZM144-408v-72h288v72H144Zm0-144v-72h432v72H144Zm0-144v-72h432v72H144Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#FFFFFF"><path d="M360-264h384v-576H360v576Zm0 72q-29 0-50.5-21.5T288-264v-576q0-29 21.5-50.5T360-912h384q29 0 50.5 21.5T816-840v576q0 29-21.5 50.5T744-192H360Zm192-456q25 0 42.5-17.5T612-708q0-25-17.5-42.5T552-768q-25 0-42.5 17.5T492-708q0 25 17.5 42.5T552-648Zm.24 336Q612-312 654-354.24q42-42.24 42-102T653.76-558q-42.24-42-102-42T450-557.76q-42 42.24-42 102T450.24-354q42.24 42 102 42Zm-.24-72q-30 0-51-21t-21-51q0-30 21-51t51-21q30 0 51 21t21 51q0 30-21 51t-51 21ZM672-48H216q-29.29 0-50.14-21.5Q145-91 144-120v-600h72v600h456v72ZM360-840v576-576Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#FFFFFF"><path d="M552-152v-75q86-23 139-93.26 53-70.25 53-159.5 0-89.24-53.5-158.74Q637-708 552-734v-75q116 25 190 117t74 211q0 119-73.5 211.5T552-152ZM144-385v-192h144l192-192v576L288-385H144Zm408 55v-302q45.12 20.4 70.56 61.2Q648-530 648-480.52q0 48.52-25.44 89.23Q597.12-350.59 552-330ZM408-595l-90 90H216v48h102l90 90v-228Zm-91 113Z"/></svg>
+     <input type="range" min="0" max="100" class="slide">
+     <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#FFFFFF"><path d="M336-145v-72h72v-72H168q-29.7 0-50.85-21.15Q96-331.3 96-361v-384q0-29.7 21.15-50.85Q138.3-817 168-817h624q29.7 0 50.85 21.15Q864-774.7 864-745v384q0 29.7-21.15 50.85Q821.7-289 792-289H552v72h72v72H336ZM168-361h624v-384H168v384Zm0 0v-384 384Z"/></svg>
+     <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#FFFFFF"><path d="M144-144v-288h72v165l477-477H528v-72h288v288h-72v-165L267-216h165v72H144Z"/></svg>
+
+            </div>      
+            </div>
+
+    </div>
+    
+
+
+</body>
+</html>
